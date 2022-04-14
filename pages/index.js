@@ -4,7 +4,7 @@ import styles from '../styles/Home.module.css';
 
 export default function Home() {
     return (
-        <div className={styles.container}>
+        <>
             <Head>
                 <title>Fix My Thinking</title>
                 <meta
@@ -19,6 +19,6 @@ export default function Home() {
             </main>
 
             <footer className={styles.footer}></footer>
-        </div>
+        </>
     );
 }
